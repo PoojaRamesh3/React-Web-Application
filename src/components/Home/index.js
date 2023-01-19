@@ -5,8 +5,8 @@ import Greeting from './Greeting'
 import './index.scss'
 
 const Home = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
-  const Hello = ['H', 'e', 'l', 'l', 'o']
+  const [letterClass] = useState('text-animate')
+  const Hello = ['H', 'e', 'l', 'l', 'o', ',']
   const nameArray = [' ', 'P', 'o', 'o', 'j', 'a', ' ', 'R']
   const jobArray = [
     'S',
