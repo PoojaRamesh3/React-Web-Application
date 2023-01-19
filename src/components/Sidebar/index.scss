@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #181818;
+  background-color: #00d0c0;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -34,7 +34,7 @@
 
     a {
       font-size: 22px;
-      color: #4d4d4e;
+      color: #08494d;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -45,7 +45,7 @@
         transition: all 0.3s ease-out;
       }
       &:hover {
-        color: #ffd700;
+        color: #08494d;
 
         svg {
           opacity: 0;
@@ -94,7 +94,7 @@
 
     a.active {
       svg {
-        color: #ffd700;
+        color: #08494d;
       }
     }
   }
@@ -124,4 +124,7 @@
       }
     }
   }
+}
+svg {
+  color: #e8e8e8;
 }
