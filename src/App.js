@@ -1,13 +1,16 @@
 import './App.scss'
+import './index.css'
 import { Route, Routes } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
+// import ToggleColorMode from './components/ToggleColorMode'
 
 function App() {
   return (
     <>
+      {/* <ToggleColorMode /> */}
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
